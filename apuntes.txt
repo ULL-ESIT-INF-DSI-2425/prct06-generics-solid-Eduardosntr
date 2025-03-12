@@ -1,0 +1,16 @@
+Ejercicio 1: 
+
+Series, peliculas y documentales
+
+I Generica Streamable -> Especifica propiedades y metodos de una coleccion de emisiones
+
+Clase abstracta -> BasicStreamableCollection implementa dicha interfaz 
+
+  Tres subclases que extienden de la clase abstracta e implementan Series, documentales y peliculas
+
+Importante principios solid sobre todo para dividir bien la interfaz
+
+Primera pregunta: 
+
+Que deberia tener una interfaz generica Streamable para que se pueda aplicar a series, peliculas y documentales
+
