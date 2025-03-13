@@ -35,7 +35,8 @@ export abstract class BasicStreamableCollection<T> implements Streamable<T> {
   remove(item: T): void {
     const index = this._collection.indexOf(item);
     if (index > -1) {
-      this._collection.splice(index, 1);
+      // Reduce el tamaño del array eliminando el elemento en la posición index
+      this._collection.splice(index, 1); 
     }
   }
 

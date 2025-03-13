@@ -4,7 +4,7 @@ import { ISerie } from "./interfaces";
 /**
  * Clase Seria que implementa la interfaz ISerie y extiende de la clase BasicStreamableCollection
  */
-export class Seria extends BasicStreamableCollection<ISerie> implements ISerie {
+export class Serie extends BasicStreamableCollection<ISerie> implements ISerie {
   /**
    * Constructor de la clase
    * @param name - Nombre de la serie
